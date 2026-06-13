@@ -85,21 +85,8 @@ This project is ideal for:
 
 ### System Diagram
 
-*[Place your architecture diagram here — see diagram.md or assets/architecture.png]*
+<img width="1536" height="1024" alt="kafka2lake" src="https://github.com/user-attachments/assets/a12e1761-7ed9-4caf-995a-e91f73b5bb99" />
 
-```
-PostgreSQL (Source)
-        ↓ [CDC Trigger]
-    cdc_events table
-        ↓ [Poll every N sec]
-    Python Producer
-        ↓ [Watermark-based filtering]
-    Apache Kafka
-        ↓ [Consumer group offsets]
-    Python Consumer
-        ↓ [JSON serialization]
-    Azure ADLS Gen2 (Bronze Layer)
-```
 
 ### Data Flow
 
