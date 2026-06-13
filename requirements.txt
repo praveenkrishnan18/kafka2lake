@@ -1,0 +1,10 @@
+# ─── Core pipeline dependencies ──────────────────────────────
+psycopg2-binary==2.9.9
+kafka-python==2.0.2
+azure-storage-file-datalake==12.14.0
+azure-identity==1.16.0
+python-dotenv==1.0.1
+
+# ─── Testing ──────────────────────────────────────────────────
+pytest==8.2.2
+pytest-mock==3.14.0

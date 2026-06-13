@@ -1,0 +1,21 @@
+# ─── PostgreSQL ──────────────────────────────────────────────
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_USER=cdc_user
+POSTGRES_PASSWORD=cdc_password
+POSTGRES_DB=cdc_db
+
+# ─── Kafka ───────────────────────────────────────────────────
+KAFKA_BOOTSTRAP_SERVERS=localhost:9092
+KAFKA_TOPIC=cdc_customers
+KAFKA_GROUP_ID=cdc_consumer_group
+
+# ─── Azure Data Lake Storage Gen2 ────────────────────────────
+ADLS_ACCOUNT_NAME=your_storage_account
+ADLS_ACCOUNT_KEY=your_storage_account_key
+ADLS_CONTAINER_NAME=bronze
+ADLS_BRONZE_PATH=cdc/customers/
+
+# ─── App ─────────────────────────────────────────────────────
+POLL_INTERVAL_SECONDS=5
+LOG_LEVEL=INFO
