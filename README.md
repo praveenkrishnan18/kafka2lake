@@ -639,19 +639,6 @@ You're free to use, modify, and distribute this code for personal, educational, 
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please feel free to:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit changes (`git commit -m 'Add your feature'`)
-4. Push to branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
-For major changes, open an issue first to discuss proposed changes.
-
----
-
 ## Support
 
 If you encounter issues or have questions:
